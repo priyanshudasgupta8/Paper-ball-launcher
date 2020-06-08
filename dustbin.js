@@ -1,7 +1,5 @@
-class dustbin
-{
-	constructor(x,y)
-	{
+class Dustbin{
+	constructor(x,y){
 		this.x=x;
 		this.y=y;
 		this.dustbinWidth=200;
@@ -21,8 +19,7 @@ class dustbin
 		World.add(world, this.rightWallBody);
 
 	}
-	display()
-	{
+	display(){
 			var posBottom=this.bottomBody.position;
 			var posLeft=this.leftWallBody.position;
 			var posRight=this.rightWallBody.position;
