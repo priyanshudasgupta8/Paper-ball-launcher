@@ -1,2 +1,1 @@
-# Paper-ball-launcher
-Paper-ball-launcher (of sorts)
+# CP-2
